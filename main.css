@@ -1,0 +1,597 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: rgb(53, 53, 66);
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(71, 71, 90);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(112, 112, 148);
+  border-radius: 50px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(92, 92, 123);
+}
+
+.navbar {
+  box-shadow: 0px 5px 5px 4px rgb(82, 82, 109);
+  background-color: rgb(85, 85, 113);
+  border-radius: 20px;
+  height: 100px;
+  border-color: rgb(140, 140, 140);
+  display: flex;
+  align-items: center;
+}
+
+.space {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  color: white;
+  font-family: cursive;
+  font-weight: 1;
+}
+
+@font-face {
+  font-family: "Hello People Regular";
+  src: url("./fonts/hellopeople-regular.ttf");
+}
+
+.name {
+  text-decoration-thickness: 5px;
+  color: white;
+  font-family: Hello People Regular;
+  font-weight: 300;
+  font-size: 128px;
+  margin-left: 20px;
+  /* margin-top:140px */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-top:20px;
+}
+
+.home,
+.projects,
+.aboutme,
+.links {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 45px;
+  font-weight: 1;
+  font-weight: 400;
+}
+
+.material-symbols-outlined {
+  margin-top: 4px;
+  font-size: 40px;
+  margin-bottom: 0px;
+  margin-left: 240px;
+  color: white;
+  margin-right: 6px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.homesection {
+  box-shadow: 0px 0px 40px 5px rgb(91, 91, 121);
+  background-color: rgb(85, 85, 113);
+  border-radius: 20px;
+  width: 100%;
+  height: 600px;
+  border-color: rgb(140, 140, 140);
+  transition: 0.8s;
+}
+.linkssection,
+.projectssection,
+.abtmesection {
+  box-shadow: 0px 0px 40px 5px rgb(91, 91, 121);
+  box-shadow: rgb(59, 59, 78);
+  background-color: rgb(85, 85, 113);
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+  border-color: rgb(140, 140, 140);
+  transition: 0.8s;
+  display: none;
+  opacity: 0%;
+}
+
+text:hover,
+p:hover {
+  cursor: pointer;
+  text-decoration-color: white;
+}
+
+text,
+p {
+  display: inline-flex;
+  text-decoration: underline;
+  transition: 0.5s;
+  text-decoration-color: transparent;
+  -moz-text-decoration-color: transparent;
+  -webkit-text-decoration-color: transparent;
+}
+
+.DDIV {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 550px;
+}
+
+.YTDIV {
+  display: inline-flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.XDIV {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.YTLINK {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  color: rgb(255, 0, 0);
+  font-weight: 1;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.TWITTERLINK {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: 1;
+  color: black;
+  display: inline-flex;
+  margin: 0;
+  margin-left: 75px;
+}
+
+.DISCORDLINK {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+  font-size: 70px;
+  color: rgb(0, 94, 255);
+  font-weight: 1;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-flex;
+}
+
+.DLINKC,
+.YTLINKC,
+.XLINKC {
+  display: inline-flex;
+}
+
+.wtmw {
+  text-shadow: 0px 2px 3px rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  font-weight: 1;
+}
+
+.belowwtmw {
+  text-shadow: 0px 1px 2px rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 1;
+  transition: 0.8s;
+}
+
+.note {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 1;
+  transition: 0.8s;
+}
+
+.aaf {
+  text-decoration: underline;
+}
+
+.GTP {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  background-color: rgb(53, 53, 66);
+  width: 300px;
+  height: 658px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.infoGTP {
+  border-bottom: 1px solid rgb(160, 160, 160);
+  border-width: 2px;
+  background-color: rgb(53, 53, 66);
+  width: 300px;
+  height: 280px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wompwompbutton {
+  width: auto;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wompwompbutton:hover {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 25px;
+  width: 170px;
+  height: 50px;
+  background-color: rgb(85, 85, 113);
+  border-width: 1px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-color: white;
+  border-style: solid;
+  margin-top: 10px;
+  transition: 0.8s;
+}
+
+button:hover {
+  cursor: pointer;
+  width: 200px;
+}
+
+img {
+  display: inline-flex;
+}
+
+.wtmwa {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 1;
+}
+
+@media screen and (max-width: 1844px) {
+  .bi-chat-dots {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .bi-box {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    color: white;
+    margin-right: 6px;
+  }
+  .bi-bag {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .material-symbols-outlined {
+    margin-top: 4px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    color: white;
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 1684px) {
+  .bi-chat-dots {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 160px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .bi-box {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 160px;
+    color: white;
+    margin-right: 6px;
+  }
+  .bi-bag {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 160px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .material-symbols-outlined {
+    margin-top: 4px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 160px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .DDIV {
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 1384px) {
+  .DDIV {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 1526px) {
+  .bi-chat-dots {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .bi-box {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    color: white;
+    margin-right: 6px;
+  }
+  .bi-bag {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .material-symbols-outlined {
+    margin-top: 4px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    color: white;
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 1362px) {
+  .bi-chat-dots {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .bi-box {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    color: white;
+    margin-right: 6px;
+  }
+  .bi-bag {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .material-symbols-outlined {
+    margin-top: 4px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    color: white;
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 1204px) {
+  .bi-chat-dots {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .bi-box {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    color: white;
+    margin-right: 6px;
+  }
+  .bi-bag {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .material-symbols-outlined {
+    margin-top: 4px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    color: white;
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .linkssection {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .DDIV {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .DISCORDLINK {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    margin-left: 15px;
+    font-size: 70px;
+    color: rgb(0, 94, 255);
+    font-weight: 1;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  .bi-chat-dots {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .bi-box {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+    margin-right: 6px;
+  }
+  .bi-bag {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .material-symbols-outlined {
+    margin-top: 4px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: white;
+    margin-right: 6px;
+  }
+}
+
+@media screen and (max-width: 902px) {
+  .bi-chat-dots {
+    opacity: 0%;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .bi-box {
+    opacity: 0%;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: white;
+    margin-right: 6px;
+  }
+  .bi-bag {
+    opacity: 0%;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: white;
+    margin-right: 6px;
+  }
+
+  .material-symbols-outlined {
+    opacity: 0%;
+    margin-top: 4px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: white;
+    margin-right: 6px;
+  }
+}
+.wompwomptoosmalldevice {
+  display: none;
+}
+@media screen and (max-width: 929px) {
+  .wompwomptoosmalldevice {
+    display: flex;
+    justify-content: center;
+  }
+  .literallyeverythingindawebsite {
+    display: none;
+  }
+}
+
+.wompwomptext {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 70px;
+}
+
+.wompwompdesc {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  color: rgb(189, 189, 189);
+}

@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(229, 202, 169);
+}
+
+input {
+  font-size: 50px;
+  border-radius: 15px;
+  border-style: solid;
+  outline: none;
+  margin-top: 170px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 203, 139);
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(229, 202, 169);
+}
+
+.s {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+}
+
+#n1,
+#n2,
+#n3,
+#n4,
+#n5,
+#n6 {
+  display: none;
+  margin: 0;
+  margin-top: 20px;
+  width: auto;
+}
+
+#na1,
+#na2,
+#na3,
+#na4,
+#na5,
+#na6 {
+  display: none;
+}
+
+#passwordinput {
+    width: 170px;
+}
+
+h1, #resultwp, #result, #resultsd {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 1000;
+}
+
+.g {
+  font-size: 25px;
+  border-radius: 15px;
+  border-style: solid;
+}
+button {
+  font-size: 50px;
+  border-radius: 15px;
+  border-style: solid;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.g:hover {
+  cursor: pointer;
+}
+
+#gen {
+  display: none;
+}
+
+#gtwn {
+  display: none;
+}
+
+.ged {
+  font-size: 50px;
+  border-radius: 15px;
+  border-style: solid;
+  outline: none;
+  margin-top: 20px;
+}
+.gtwn {
+  font-size: 50px;
+  border-radius: 15px;
+  border-style: solid;
+  outline: none;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 727px) {
+  .g {
+    margin-top: 10px;
+  }
+}

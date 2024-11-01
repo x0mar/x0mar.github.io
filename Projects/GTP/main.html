@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the password (omar edition)</title>
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <center>
+      <label class="s">Guess the password</label><br />
+      <h1>
+        The password may start with 0 or it may be 000000 if you're extremely
+        lucky.
+      </h1>
+      <input placeholder="6-digit" maxlength="6" id="passwordinput" /><br /><br />
+      <button onclick="check()">IM SURE</button><br /><br />
+      <p id="result"></p>
+      <h1>
+        Help me, I can't guess! but I think  more or less will help me.
+      </h1>
+      <button onclick="gtwn()" class="g">
+        more or less for the whole number.
+      </button>
+      <button onclick="gen()" class="g"> more or less for each digit.</button>
+      <br><br>
+      <div id="gtwn">
+        <h1>is the whole number more or less than</h1>
+        <input maxlength="6" class="gtwn" id="gtwnput" /><br /><p id="resultwp"></p><br /><button
+          onclick="boswn()"
+        >
+          Check
+        </button>
+      </div>
+      <div id="gen">
+        <button onclick="n1()">n1</button><button onclick="n2()">n2</button>
+        <button onclick="n3()">n3</button><button onclick="n4()">n4</button>
+        <button onclick="n5()">n5</button><button onclick="n6()">n6</button>
+        <input id="n1" placeholder="n1" maxlength="1" />
+        <input id="n2" placeholder="n2" maxlength="1" />
+        <input id="n3" placeholder="n3" maxlength="1" />
+        <input id="n4" placeholder="n4" maxlength="1" />
+        <input id="n5" placeholder="n5" maxlength="1" />
+        <input id="n6" placeholder="n6" maxlength="1" /><br>
+        <p id="resultsd"></p>
+        <button id="na1" onclick="chk4num1()">Check</button>
+        <button id="na2" onclick="chk4num2()">Check</button>
+        <button id="na3" onclick="chk4num3()">Check</button>
+        <button id="na4" onclick="chk4num4()">Check</button>
+        <button id="na5" onclick="chk4num5()">Check</button>
+        <button id="na6" onclick="chk4num6()">Check</button>
+      </div>
+    </center>
+    <script src="main.js"></script>
+  </body>
+</html>
