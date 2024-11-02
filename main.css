@@ -257,6 +257,8 @@ p {
 .wompwompbutton:hover {
   padding-left: 40px;
   padding-right: 40px;
+  cursor: pointer;
+  width: auto;
 }
 
 button {
